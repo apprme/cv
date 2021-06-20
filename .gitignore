@@ -1,0 +1,8 @@
+.idea
+.terraform
+*.aux
+*.log
+*.out
+*.gz
+src/*.pdf
+.DS_Store
