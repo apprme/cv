@@ -1,6 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage{geometry}
-\geometry{a4paper, top=20mm, bottom=20mm}
+\geometry{a4paper, top=15mm, bottom=15mm, left=20mm, right=20mm}
 \usepackage[T1]{fontenc}
 \usepackage{url}
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -43,7 +43,22 @@
     \end{tabular}\bigskip
 
     \section{Work Experience}
-    \begin{tabular}{r|p{11cm}}
+    \begin{tabular}{r|p{13cm}}
+        \experience{Feb 2022 --- Present}{Reddit Germany (f.k.a. Mobile Motion) GmbH, Remote \href{https://redditinc.com}{redditinc.com}}{Software Developer} {
+            Contributing to the efforts of the Internationalization organization at Reddit, aiming to increase the number of users in emerging markets. Improving
+            user experience via numerous performance optimizations, simplifying user onboarding through enhancements to the signup flow
+            (phone number authentication), boosting user retention and engagement via various gamification features (streaks, achievements) and
+            WhatsApp notifications, and increasing content consumption through new discovery surfaces (automatic live feeds covering soccer,
+            cricket, and basketball matches; revamp of "Discover" tab of mobile apps with recommendations of trending and relevant content, and others).
+
+            Reddit builds most of its backend systems using modern versions of Golang, and deploys them to Kubernetes clusters across multiple geo regions
+            and clouds.
+        }
+        \experience{Sep 2021 --- Feb 2022}{FlixMobility Tech GmbH, Munich \href{https://www.flixbus.de/unternehmen/ueber-flixbus}{flixbus.de}}{Software Developer} {
+            As part of Ancillaries team, developed a backend system that manages bulky luggage capacity of FlixBus buses.
+
+            ACS (Ancillaries Capacity System) was one of the early attempts within Flix to migrate from legacy PHP stack to kotlin and akka.
+        }
         \experience{Mar 2013 --- Sep 2021}{Delightex GmbH, Munich \href{https://delightex.com}{delightex.com}}{Software Developer} {
             Was responsible for refactoring of legacy monolithic server into scalable distributed cloud-native application,
             utilizing containerized microservices, serverless functions, and immutable infrastructure described in
@@ -63,9 +78,9 @@
 
             Implemented clients to numerous third-party APIs: Stripe, \mbox{Google Sign-In}, \mbox{Azure AD}, Azure Cognitive Services,
             and many others.
-
-            Participated in code reviews and 24/7 on-call rotations.
         }
+    \end{tabular}
+    \begin{tabular}{r|p{13cm}}
         \experience{Sep 2011 --- Mar 2013}{i-Free, St. Petersburg, Russia \href{https://i-free.com/ }{i-free.com}}{Software Developer} {
             Developed an SMS payment processing solution and microservice architecture backend for numerous mobile
             applications and internet sites (Node.js, Redis, MySQL, protobuf).
@@ -74,15 +89,13 @@
             Worked on AdHands --- a tool used internally and by several third-parties for managing, serving, and analyzing
             the performance of internet ads (PHP, Zend Framework, MySQL, XSLT).
         }
-        \experience{Aug 2009 --- Aug 2010}{Info-Lan, St. Petersburg, Russia \href{https://info-lan.ru}{info-lan.ru}}{Software Developer} {
+       \experience{Aug 2009 --- Aug 2010}{Info-Lan, St. Petersburg, Russia \href{https://info-lan.ru}{info-lan.ru}}{Software Developer} {
             Developed a billing tool and a monitoring tool utilizing SNMP to collect metrics from various network devices (PHP, XSLT).
         }
     \end{tabular}
 
-    \newpage
-
     \section{Education}
-    \begin{tabular}{r|p{11cm}}
+    \begin{tabular}{r|p{13cm}}
         \education{2021}{Amazon Web Services (AWS)} {
             \href{https://cv.appr.me/aws/SAA-C02.pdf}{AWS Certified Solutions Architect --- Associate}\\&
             \href{https://cv.appr.me/aws/CLF-C01.pdf}{AWS Certified Cloud Practitioner}
